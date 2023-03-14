@@ -1,2 +1,2 @@
-Arquivos com os códigos que desenvolvi durante o desafio #7DaysOfCode da Alura, em lógica de programação com JavaScript.
-Cada arquivo tem o código de um desafio diário.
+Arquivos com os códigos com a resolução dos desafios de Lógica da Programação em JavaScript, propostos durante o #7DaysOfCode da Alura, em março de 2023.
+Cada pasta tem a resolução de um desafio diário.
