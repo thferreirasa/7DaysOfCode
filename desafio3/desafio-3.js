@@ -61,7 +61,7 @@ function perguntas() {
         alert(`Tenho certeza que você se dará muito bem como Fullstack!`);
     }
 
-    let listaAprendizado = []
+    let listaAprendizado = "";
     const tecnologia = prompt(`Qual tecnologia você gostaria de se especializar ou de conhecer?`);
 
     listaAprendizado = `${linguagem}, ${tecnologia}`;
