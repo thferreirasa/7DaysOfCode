@@ -27,7 +27,7 @@ function adivinhe() {
     let chute = prompt(`Escolha um número entre 0 e 10. Você tem 3 chances.`);
     let chuteNumerico = parseInt(chute);
 
-    // o número deve estar entre 0 e 10
+    // primeira tentativa
     if (chuteNumerico > 10 || chuteNumerico < 0) {
         chute = prompt(`Atenção! O número deve estar entre 0 e 10!`);
     } else if (chuteNumerico === numero) {
@@ -37,7 +37,7 @@ function adivinhe() {
     // contagem de tentativas
     let tentativas = 1;
 
-    // verificação da resposta e novas tentativas
+    // novas tentativas
     while (chuteNumerico !== numero && tentativas < 3) {
         chute = prompt(`Errado! Escolha um novo número entre 0 e 10.`);
         chuteNumerico = parseInt(chute);
@@ -46,6 +46,8 @@ function adivinhe() {
         if (chuteNumerico === numero) {
             certo = alert(`Você adivinhou! O número é ${numero}!`);
             tentativas = 3;
+        } else if (chuteNumerico > 10 || chuteNumerico < 0) {
+            chute = prompt(`Atenção! O número deve estar entre 0 e 10!`);
         }
     }
     
